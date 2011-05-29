@@ -1,0 +1,100 @@
+/*[fmt]1A90-1A0B-3*/
+
+/* START Header */
+
+#home_top {
+	height: 240px;
+	overflow: hidden;
+}
+
+/* END Header */
+
+
+/* START Main content */
+
+#home_main {
+	height: 410px;
+	overflow: hidden;
+}
+
+#home_main section h1 {
+	font-size: 1.4em;
+	padding: 15px 0px 25px;
+}
+
+/* END Main content */
+
+
+
+
+
+
+footer nav #red {
+	color: #FF0000;
+}
+
+footer nav #green {
+	color: #00FF00;
+}
+
+footer nav #yellow {
+	color: #FFFF00;
+}
+
+footer nav #aqua {
+	color: #00FFFF;
+}
+
+ul.list_red li {
+	list-style-image: url(../images/list_item_red.gif);
+	margin: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 12px;
+}
+
+.yellow {
+	color: #FFFF00;
+}
+
+#site_desc p {
+	padding: 0px 0px 25px;
+	height: 162px;
+	overflow: hidden;
+}
+
+#footer_promo {
+	height: 55px;
+	background: #FFFF00;
+}
+
+#footer_promo h2 {
+	padding-top: 9px;
+}
+
+#home_links ul {
+	height: 140px;
+	overflow: hidden;
+}
+
+#home_links ul li div {
+	float: right;
+	color: #FFFF00;
+}
+
+#page_top header #headerintro>h1 {
+	font-size: 3.6em;
+	padding: 6px 0px 0px;
+	text-shadow: 0px -10px #000000;
+}
+
+#page_main section h1 {
+	padding: 10px 0px 0px;
+}
+
+#page_main p {
+	padding: 13px 0px;
+}
+
+#page_main #page_num {
+	float: right;
+}
+
