@@ -19,6 +19,8 @@ body {
 	font-size: 1.7em;
 }
 
+.yellow { color: #FFFF00; }
+
 /* END Basics */
 
 
@@ -75,7 +77,28 @@ header #headerintro>h1 {
 /* END Header */
 
 
+/* START Main content */
+
+ul.list_red li {
+	list-style-image: url(../images/list_item_red.gif);
+	margin: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 12px;
+}
+
+/* END Main content */
+
+
 /* START Footer */
+
+
+#footer_promo {
+	height: 55px;
+	background: #FFFF00;
+}
+
+#footer_promo h2 {
+	padding-top: 9px;
+}
 
 footer h2 {
 	color: #000000;
@@ -83,6 +106,22 @@ footer h2 {
 	text-align: center;
 	padding: 3px 0;
 	margin-bottom: 3px;
+}
+
+footer nav #red {
+	color: #FF0000;
+}
+
+footer nav #green {
+	color: #00FF00;
+}
+
+footer nav #yellow {
+	color: #FFFF00;
+}
+
+footer nav #aqua {
+	color: #00FFFF;
 }
 
 /* END Footer */

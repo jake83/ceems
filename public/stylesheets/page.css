@@ -1,5 +1,16 @@
 /*[fmt]1A90-1A0B-3*/
 
+/* START Header */
+
+#page_top header #headerintro>h1 {
+	font-size: 3.6em;
+	padding: 6px 0px 0px;
+	text-shadow: 0px -10px #000000;
+}
+
+/* END Header */
+
+
 /* START Main content */
 
 #page_top {
@@ -10,6 +21,18 @@
 #page_main {
 	height: 470px;
 	overflow: hidden;
+}
+
+#page_main section h1 {
+	padding: 10px 0px 0px;
+}
+
+#page_main p {
+	padding: 13px 0px;
+}
+
+#page_main #page_num {
+	float: right;
 }
 
 /* END Main content */
