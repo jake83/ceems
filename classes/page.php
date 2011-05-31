@@ -3,6 +3,7 @@
 class Page {
 
 	private $page;
+	private $pagecount = array();
 
 	private function get_page_by_pagenum($pagenum, $pageorder) {
 		global $db;
@@ -18,6 +19,25 @@ class Page {
 		$result_set = $db->query($query);		
 		if ($this->page = $db->fetch_array($result_set)) {
 			return $this->page;
+		} else {
+			return NULL;
+		}
+	}
+	
+	public function get_number_pages($section) {
+		global $db;
+		
+		$query  = "SELECT COUNT(*) ";
+		$query .= "FROM pages ";
+		$query .= "INNER JOIN sections ";
+		$query .= "ON pages.pagenum = sections.pagenum ";
+		$query .= "WHERE sections.pagenum=". $section;
+		$query .= " AND sections.enabled=1 ";
+		$query .= "AND pages.enabled=1";
+		
+		$result_set = $db->query($query);
+		if ($this->pagecount = $db->fetch_array($result_set)) {
+			return $this->pagecount[0];
 		} else {
 			return NULL;
 		}
