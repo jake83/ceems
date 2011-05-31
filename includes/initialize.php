@@ -30,4 +30,7 @@ require_once(CLASS_PATH.DS."database.php");
 // load database-related classes
 require_once(CLASS_PATH.DS."user.php");
 
+// load site related classes
+require_once(CLASS_PATH.DS."page.php");
+
 ?>
