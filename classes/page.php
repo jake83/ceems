@@ -13,6 +13,7 @@ class Page {
 		$query .= "INNER JOIN sections ";
 		$query .= "ON pages.pagenum = sections.pagenum ";
 		$query .= "WHERE sections.pagenum=". $pagenum;
+		$query .= " AND pages.pageorder=". $pageorder;
 		$query .= " AND sections.enabled=1 ";
 		$query .= "AND pages.enabled=1";
 		
@@ -50,6 +51,7 @@ class Page {
 		} else {
 			$sel_page = NULL;
 		}
+		return $sel_page;
 	}
 	
 }
