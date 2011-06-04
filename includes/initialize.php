@@ -32,5 +32,6 @@ require_once(CLASS_PATH.DS."user.php");
 
 // load site related classes
 require_once(CLASS_PATH.DS."page.php");
+require_once(CLASS_PATH.DS."section.php");
 
 ?>
