@@ -1,0 +1,147 @@
+/*[fmt]1A90-1A0B-3*/
+/*START Header*/
+/*+clearfix {*/
+#admin_main form label:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+
+#admin_main form label {
+	display: inline-block;
+}
+
+#admin_main form label {
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+
+/*+}*/
+#admin_top header #headerintro>h1 {
+	font-size: 2.7em;
+	text-shadow: 0px -10px #000000;
+}
+
+/*END Header
+START Main content*/
+#admin_top {
+	height: 145px;
+	overflow: hidden;
+}
+
+#admin_main {
+	height: 470px;
+	overflow: hidden;
+}
+
+#admin_main section h1 {
+	padding: 10px 0px 0px;
+}
+
+#admin_main ul#crumb {
+	margin: 6px 0px;
+}
+
+#admin_main ul#crumb li {
+	display: inline;
+}
+
+#admin_main ul#crumb li a {
+	color: #FFFFFF;
+}
+
+#admin_main p {
+	padding: 13px 0px;
+}
+
+#admin_main form {
+	border: 4px solid #0000FF;
+	width: 921px;
+	padding: 15px;
+}
+
+#admin_main form input {
+	/*+placement:shift 0px -8px;*/
+	position: relative;
+	left: 0px;
+	top: -8px;
+	border: 0px solid #000000;
+	padding: 5px;
+}
+
+#admin_main form textarea {
+	width: 596px;
+	height: 169px;
+	margin: 0px 0px 7px;
+	border: 1px solid #000000;
+}
+
+/*[clearfix]*/#admin_main form label {
+	float: right;
+	padding-right: 15px;
+}
+
+#admin_main form label[for="content"] {
+	/*+placement:shift 0px -145px;*/
+	position: relative;
+	left: 0px;
+	top: -145px;
+}
+
+#admin_main form input[type="checkbox"] {
+	margin: 0px;
+	padding: 0px;
+}
+
+#admin_main form input[type="image"] {
+	padding: 0px;
+	margin: -6px 0;
+	/*+placement:shift 0px 3px;*/
+	position: relative;
+	left: 0px;
+	top: 3px;
+}
+
+#admin_main form a#submitpage {
+	background-color: #0F0;
+	padding: 5px 25px;
+	color: #000000;
+	text-decoration: none;
+	/*+placement:shift 0px -4px;*/
+	position: relative;
+	left: 0px;
+	top: -4px;
+}
+
+#admin_main #page_num {
+	float: right;
+}
+
+/*END Main content
+START Footer*/
+footer nav #red a {
+	color: #F00;
+	text-decoration: none;
+}
+
+footer nav #green a {
+	color: #0F0;
+	text-decoration: none;
+}
+
+footer nav #yellow a {
+	color: #FF0;
+	text-decoration: none;
+}
+
+footer nav #aqua a {
+	color: #0FF;
+	text-decoration: none;
+}
+
+/*END Footer*/
