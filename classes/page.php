@@ -23,14 +23,15 @@ class Page {
 	public function insert_page() {
 		global $db;
 		$query  = "INSERT INTO pages ";
-		$query .= "(pagenum, pageorder, name, content, enabled) ";
+		$query .= "(pagenum, pageorder, name, content, enabled, footerpromo) ";
 		$query .= "VALUES (";
 		$query .= $this->pagenum .", ";
 		$query .= $this->pageorder .", ";
 		$query .= "'". $this->pagename ."', ";
 		$query .= "'". $this->content ."', ";
-		$query .= $this->enabled ."', ";
+		$query .= $this->enabled .", ";
 		$query .= "'". $this->footerpromo ."')";
+		//echo $query;
 		$db->query($query);
 	}
 	
