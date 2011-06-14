@@ -34,8 +34,11 @@ START Main content*/
 	overflow: hidden;
 }
 
+#admin_container {
+}
+
 #admin_main {
-	height: 470px;
+	height: 505px;
 	overflow: hidden;
 }
 
@@ -59,11 +62,34 @@ START Main content*/
 	padding: 13px 0px;
 }
 
-#admin_main form {
+#admin_container {
 	border: 4px solid #0000FF;
 	width: 921px;
 	padding: 15px;
-	height: 385px;
+	height: 420px;
+	overflow: auto;
+}
+
+#sections {
+	height: 340px;
+	padding: 10px 0px;
+}
+
+#admin_container ul.paging {
+	text-align: center;
+}
+
+#admin_container ul.paging li {
+	display: inline;
+	color: #FFFF00;
+}
+
+#admin_container ul.paging li a {
+	color: #FFFF00;
+}
+
+#admin_container ul.paging li a:hover {
+	text-decoration: none;
 }
 
 #admin_main td {
@@ -150,3 +176,39 @@ footer nav #aqua a {
 }
 
 /*END Footer*/
+#admin_container h2 {
+	color: #FFFF00;
+	text-align: center;
+	margin: 0px 0px 10px;
+}
+
+table.admin {
+	width: 920px;
+}
+
+#admin_container .sect_enabled {
+	display: inline;
+}
+
+#admin_container .sect_number {
+	display: inline;
+}
+
+#admin_container .sect_name {
+	display: inline;
+}
+
+#admin_container .sect_number a {
+	color: #FFFF00;
+	text-decoration: none;
+}
+
+#admin_container .sect_name a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#admin_container a:hover {
+	text-decoration: underline;
+}
+

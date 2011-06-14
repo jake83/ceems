@@ -1,7 +1,5 @@
 /*[fmt]1A90-1A0B-3*/
-
-/* START Basics */
-
+/*START Basics*/
 @font-face {
 	font-family: perfect_dos;
 	src: url('../fonts/perfect_dos.ttf');
@@ -19,13 +17,12 @@ body {
 	font-size: 1.7em;
 }
 
-.yellow { color: #FFFF00; }
+.yellow {
+	color: #FFFF00;
+}
 
-/* END Basics */
-
-
-/* START Page-top info */
-
+/*END Basics
+START Page-top info*/
 ul li#headertitle {
 	background: #0000FF;
 	padding: 5px 10px;
@@ -53,11 +50,8 @@ nav #headersearch input[type=text], nav #headersearch input[type=text]:active {
 	color: #FFFFFF;
 }
 
-/* END Page-top info */
-
-
-/* START Header */
-
+/*END Page-top info
+START Header*/
 header #headerintro {
 	height: 170px;
 	background: #0000FF;
@@ -74,23 +68,16 @@ header #headerintro>h1 {
 	text-shadow: 0px -12px #000000;
 }
 
-/* END Header */
-
-
-/* START Main content */
-
+/*END Header
+START Main content*/
 ul.list_red li {
 	list-style-image: url(../images/list_item_red.gif);
 	margin: 0px 0px 0px 25px;
 	padding: 0px 0px 0px 12px;
 }
 
-/* END Main content */
-
-
-/* START Footer */
-
-
+/*END Main content
+START Footer*/
 #footer_promo {
 	height: 55px;
 	background: #FFFF00;
@@ -124,4 +111,4 @@ footer nav #aqua {
 	color: #00FFFF;
 }
 
-/* END Footer */
+/*END Footer*/
